@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estyling-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Estyling forms</h2>
+    <form>
+        <fieldset>
+            <legend>Contact details</legend>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div >
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div >
+                <label for="URL">URL:</label>
+                <input type="text" name="URL" id="URL">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Coments</legend>
+            <label for="">Messages</label>
+            <textarea name="messages" id="messages" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Remember of me:</legend>
+            <div>
+                <label for="">
+                    <input class="radio" type="radio" name="Remember" id="yes">Yes
+                </label>
+            </div>
+
+            <div>
+                <label for="">
+                    <input class="radio" type="radio" name="Remember" id="yes">No
+                </label>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

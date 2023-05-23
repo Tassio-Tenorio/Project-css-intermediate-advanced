@@ -1,0 +1,53 @@
+/*
+*{
+    color: red;
+}
+*/
+
+/*h1{
+    background-color: aqua;
+    font-size: 60px;
+}
+p{
+    background-color: grey;
+    font-size: 40px;
+}
+
+.green{
+    color: yellow;
+    font-size: 30px;
+    background-color: blue;
+}
+#pink{
+    background-color: brown;
+    font-size: 30px;
+    color: white;
+}
+li>a{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+}*/
+
+/*p>a{
+    background-color: black;
+    font-size: 40px;
+    color: white; 
+}*/
+
+/*p a{
+    background-color: black;
+    font-size: 40px;
+    color: white; 
+}*/
+
+p+h1{
+    background-color: black;
+    font-size: 40px;
+    color: white; 
+}
+h1{
+    background-color: black;
+    font-size: 40px;
+    color: white; 
+}

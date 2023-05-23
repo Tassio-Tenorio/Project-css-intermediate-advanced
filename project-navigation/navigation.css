@@ -1,0 +1,38 @@
+/*ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding: 5px 20px;
+    background: url(/image-from-navigationlist/arquivos-necessarios-barra-navegacao-vertical/seta.png) no-repeat left center;
+} */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block; /*Os links sao elementos inline e logo nao muda a largura por isso usamos o display par mudar de inline para block*/
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url(/image-from-navigationlist/arquivos-necessarios-barra-navegacao-vertical/menu.png) no-repeat left bottom;
+}
+a:hover{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+#home #navigation .home a, 
+#about #navigation .about a,
+#contact #navigation .contact,
+#notice #navigation .notice,
+#service #navigation .service{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}

@@ -1,0 +1,76 @@
+/*ul{
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 920px;
+    background: #159cb0 url(images/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+ul li{
+   
+    float: left;
+   
+}
+ul a{
+    display: block; /*Os links sao elementos inline e logo nao muda a largura por isso usamos o display par mudar de inline para block
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #fff;
+    text-indent: 40px;
+    background: url(images/divisor.png) repeat-y left top;                       
+    
+}
+ul .primeiro a {
+    background:none;
+
+}
+ul a:hover{
+    color: #085662;
+    background: #44cade;
+}
+#home #navigation .home a, 
+#about #navigation .about a,
+#service #navigation .service a,
+#contact #navigation .contact,
+#notice #navigation .notice{
+    background-position: right bottom;
+    background-color: #44cade;
+    color: #085662;
+}*/
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+ul li{
+   
+    float: left;
+    background: url(images/arquivos-necessarios-navegacao-abas/aba-direita.png) no-repeat top right;
+
+}
+li a{
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(images/arquivos-necessarios-navegacao-abas/aba-esquerda.png)no-repeat top left;
+    color: #fff;
+}
+ul :hover a{
+    color: #894a1f;
+}
+ul #actual{
+    background: url(images/arquivos-necessarios-navegacao-abas/aba-direita-atual.png) no-repeat top right;
+
+}
+ul #actual a{
+    background: url(images/arquivos-necessarios-navegacao-abas/aba-esquerda-atual.png) no-repeat top left;
+
+}
+ 

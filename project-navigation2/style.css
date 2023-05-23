@@ -1,0 +1,41 @@
+ul{
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 920px;
+    background: #159cb0 url(images/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+ul li{
+   
+    float: left;
+   
+}
+ul a{
+    display: block; /*Os links sao elementos inline e logo nao muda a largura por isso usamos o display par mudar de inline para block*/
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #fff;
+    text-indent: 40px;
+    background: url(images/divisor.png) repeat-y left top;                       
+    
+}
+ul .primeiro a {
+    background:none;
+
+}
+ul a:hover{
+    color: #085662;
+    background: #44cade;
+}
+#home #navigation .home a, 
+#about #navigation .about a,
+#service #navigation .service a,
+#contact #navigation .contact,
+#notice #navigation .notice{
+    background-position: right bottom;
+    background-color: #44cade;
+    color: #085662;
+}

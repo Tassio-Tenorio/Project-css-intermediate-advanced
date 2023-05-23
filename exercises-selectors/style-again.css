@@ -1,0 +1,51 @@
+h1{
+    background-color: red;
+    color: black;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+h2{
+    background-color: aqua ;
+    color: black;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+p{
+    color: black ;
+    background-color: rgb(192, 192, 17);
+    width: 920;
+    height: 200px;
+    font-size: 40px;
+}
+body{
+    background-color: black;
+}
+.color{
+    background-color: blueviolet;
+    font-size: 25px;
+    width: 500px;
+    height: 280px;
+    padding: 10px 10px;
+}
+.color2>p{
+    background-color: blue;
+    color: yellow;
+    padding: 10px 10px;
+    border: solid 1px yellow;
+    height: 100px;
+    font-size: 30px;
+    width: 800px;
+
+}
+#psalm-91{
+    background-color: purple;
+    color: yellow;
+    padding: 10px 10px;
+    border: solid 1px yellow;
+    height: 150px;
+    font-size: 30px;
+    width: 800px;
+}
+h1 p{
+background-color: cornflowerblue;
+}

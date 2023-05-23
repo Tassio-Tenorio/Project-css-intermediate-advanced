@@ -1,0 +1,19 @@
+.box {
+    width: 400px;
+    background: url(arquivos-necessarios-arredondamento-com-imagens/fundo-arredondamento.png);
+}
+
+.box h2 {
+    padding: 10px 20px 0px 20px;
+    background: url(arquivos-necessarios-arredondamento-com-imagens/topo2.png) no-repeat left top;  
+}
+.box p{
+    padding: 0 20px;
+    margin-bottom: 0;
+}
+
+.box .last {
+    background: url(arquivos-necessarios-arredondamento-com-imagens/baixo2.png) no-repeat left bottom;
+    width: 400px;
+    height: 24px;
+}
